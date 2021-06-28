@@ -146,3 +146,14 @@ body {
   text-align: center;
 }
 /******* billing contract style end ********/
+
+/******* rent contract style start ********/
+main {
+  text-align: right;
+  line-height: 2rem;
+  padding: 1rem;
+  margin: 0 1rem;
+  border: 2px solid rgb(15, 45, 146);
+  border-radius: 10px;
+}
+/******* rent contract style end ********/
