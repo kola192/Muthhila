@@ -1,0 +1,148 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.padding-left {
+  padding-left: 2rem;
+}
+
+.font-2rem {
+  font-size: 2rem;
+}
+
+.font-1-6rem {
+  font-size: 1.6rem;
+}
+
+.font-1-2rem {
+  font-size: 1.2rem;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(233, 233, 233);
+}
+
+.container {
+  background: #fff;
+  max-width: 992px;
+  height: 100%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.small-text {
+  font-size: 10px;
+  margin: 0.3rem 0;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem;
+}
+
+.header-en {
+  padding: 0.5rem 1rem;
+}
+
+.heading-en {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.header-center {
+}
+
+.header-ar {
+  padding: 0.5rem 1rem;
+}
+
+.heading-ar {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+/****** billing contract style start ********/
+
+.billing-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  padding: 2rem;
+}
+
+.date-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.billing-center {
+  align-self: flex-start;
+}
+
+.form-one {
+  display: flex;
+  justify-content: center;
+}
+
+.visa-master,
+.sell-point,
+.cash {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0.5rem;
+  text-align: center;
+}
+
+.billing-center h2 {
+  margin-top: 0;
+}
+
+.billing-right {
+  text-align: right;
+}
+
+.row {
+  margin: 0.5rem 0;
+}
+
+.small-input {
+  width: 100px;
+}
+
+.billing-body {
+  text-align: right;
+  padding: 1rem 2rem;
+  line-height: 3rem;
+}
+
+/* مفروض لونو يكون مع لون الخلفية */
+.dummy {
+  color: white;
+}
+
+.note {
+  text-align: right;
+  padding: 0 2rem 2rem;
+}
+
+.note span {
+  font-weight: bold;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+/******* billing contract style end ********/
